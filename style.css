@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffe6f0, #ffd6eb, #ffcce6);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+h2, h3 {
+    text-align: center;
+    color: #c2185b;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    background: #fff0f5;
+    border: 1px solid #f3c1d8;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+.item h4 {
+    margin: 10px 0;
+    color: #b03060;
+}
+
+.item p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.item input[type="number"] {
+    width: 70px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.item button {
+    margin-top: 8px;
+    padding: 6px 12px;
+    background: #d63384;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background: #b03060;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+thead {
+    background-color: #fbd4e5;
+    color: #8b0038;
+}
+
+.riwayat-container form {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.riwayat-container button {
+    padding: 8px 14px;
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.riwayat-container button:hover {
+    background: #cc0033;
+}
